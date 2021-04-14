@@ -1,0 +1,364 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AmazonAd (3.0.0)
+  - AppLovinSDK (6.15.2)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - DZNEmptyDataSet (1.8.1)
+  - Eureka (5.3.3)
+  - FBAudienceNetwork (6.3.1):
+    - FBSDKCoreKit/Basics (>= 7.0.1)
+  - FBSDKCoreKit (9.2.0):
+    - FBSDKCoreKit/Basics (= 9.2.0)
+    - FBSDKCoreKit/Core (= 9.2.0)
+  - FBSDKCoreKit/Basics (9.2.0)
+  - FBSDKCoreKit/Core (9.2.0):
+    - FBSDKCoreKit/Basics
+  - Firebase/Analytics (7.7.0):
+    - Firebase/Core
+  - Firebase/Core (7.7.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 7.7.0)
+  - Firebase/CoreOnly (7.7.0):
+    - FirebaseCore (= 7.7.0)
+  - Firebase/Crashlytics (7.7.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 7.7.0)
+  - Firebase/Messaging (7.7.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 7.7.0)
+  - Firebase/Performance (7.7.0):
+    - Firebase/CoreOnly
+    - FirebasePerformance (~> 7.7.0)
+  - Firebase/RemoteConfig (7.7.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 7.7.0)
+  - FirebaseABTesting (7.10.0):
+    - FirebaseCore (~> 7.0)
+  - FirebaseAnalytics (7.7.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleAppMeasurement (= 7.7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - FirebaseCore (7.7.0):
+    - FirebaseCoreDiagnostics (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.9.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30907.0)
+  - FirebaseCrashlytics (7.7.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleDataTransport (~> 8.0)
+    - nanopb (~> 2.30907.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstallations (7.10.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (7.10.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - FirebaseMessaging (7.7.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstanceID (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Reachability (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - FirebasePerformance (7.7.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - FirebaseRemoteConfig (~> 7.0)
+    - GoogleDataTransport (~> 8.2)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/ISASwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - Protobuf (~> 3.12)
+  - FirebaseRemoteConfig (7.7.0):
+    - FirebaseABTesting (~> 7.0)
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+  - FLAnimatedImage (1.0.15)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Freestar-Nimbus-SDK (1.8.2)
+  - FreestarAds (3.6.1)
+  - FreestarAds-Amazon (2.2.0):
+    - AmazonAd (~> 3.0.0)
+    - FreestarAds (~> 3.6)
+  - FreestarAds-AppLovin (3.3.0):
+    - AppLovinSDK (~> 6.14)
+    - FreestarAds (~> 3.6)
+  - FreestarAds-Facebook (3.3.0):
+    - FBAudienceNetwork (~> 6.2)
+    - FreestarAds (~> 3.5-beta)
+  - FreestarAds-GAM (1.3.0):
+    - FreestarAds (~> 3.6)
+    - Google-Mobile-Ads-SDK (~> 7.68)
+  - FreestarAds-Google (3.2.0):
+    - FreestarAds (~> 3.6)
+    - GoogleAds-IMA-iOS-SDK (~> 3.14)
+  - FreestarAds-Googleadmob (2.4.0):
+    - FreestarAds (~> 3.6)
+    - Google-Mobile-Ads-SDK (~> 7.68)
+  - FreestarAds-Nimbus (1.0.2):
+    - FBAudienceNetwork (~> 6.2)
+    - Freestar-Nimbus-SDK (~> 1.8)
+    - FreestarAds (~> 3.6)
+    - GoogleAds-IMA-iOS-SDK (~> 3.13)
+  - FreestarAds-Unity (4.2.0):
+    - FreestarAds (~> 3.6)
+    - UnityAds (~> 3.5)
+  - FreestarAds-Vungle (3.2.0):
+    - FreestarAds (~> 3.6)
+    - VungleSDK-iOS (~> 6.8)
+  - FRHyperLabel (1.0.4)
+  - Google-Mobile-Ads-SDK (7.69.0):
+    - GoogleAppMeasurement (~> 7.0)
+    - GoogleUserMessagingPlatform (~> 1.1)
+  - GoogleAds-IMA-iOS-SDK (3.14.1)
+  - GoogleAnalytics (3.17.0)
+  - GoogleAppMeasurement (7.7.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - GoogleDataTransport (8.3.1):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30907.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleMaps (4.2.0):
+    - GoogleMaps/Maps (= 4.2.0)
+  - GoogleMaps/Base (4.2.0)
+  - GoogleMaps/Maps (4.2.0):
+    - GoogleMaps/Base
+  - GoogleUserMessagingPlatform (1.4.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.3.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/ISASwizzler (7.3.1)
+  - GoogleUtilities/Logger (7.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.3.1)"
+  - GoogleUtilities/Reachability (7.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.3.1):
+    - GoogleUtilities/Logger
+  - HCSStarRatingView (1.5)
+  - iCarousel (1.8.3)
+  - IQKeyboardManager (6.5.6)
+  - MBProgressHUD (1.2.0)
+  - nanopb (2.30907.0):
+    - nanopb/decode (= 2.30907.0)
+    - nanopb/encode (= 2.30907.0)
+  - nanopb/decode (2.30907.0)
+  - nanopb/encode (2.30907.0)
+  - PanModal (1.2.7)
+  - PromisesObjC (1.2.12)
+  - Protobuf (3.15.8)
+  - Reachability (3.2)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
+  - Somo (0.8.0)
+  - SpreadsheetView (0.9.1)
+  - SVPullToRefresh (0.4.1)
+  - UnityAds (3.7.1)
+  - VungleSDK-iOS (6.9.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - Charts (~> 3.6)
+  - DZNEmptyDataSet
+  - Eureka
+  - FBSDKCoreKit
+  - Firebase/Analytics
+  - Firebase/Crashlytics
+  - Firebase/Messaging
+  - Firebase/Performance (= 7.7)
+  - Firebase/RemoteConfig
+  - FLAnimatedImage
+  - FMDB
+  - FreestarAds (~> 3.6)
+  - FreestarAds-Amazon (~> 2.1)
+  - FreestarAds-AppLovin (~> 3.2)
+  - FreestarAds-Facebook (~> 3.1)
+  - FreestarAds-GAM (~> 1.0)
+  - FreestarAds-Google (~> 3.0)
+  - FreestarAds-Googleadmob (~> 2.2)
+  - FreestarAds-Nimbus (~> 1.0)
+  - FreestarAds-Unity (~> 4.1)
+  - FreestarAds-Vungle (~> 3.1)
+  - FRHyperLabel (~> 1.0.4)
+  - GoogleAnalytics
+  - GoogleMaps
+  - HCSStarRatingView
+  - iCarousel
+  - IQKeyboardManager
+  - MBProgressHUD (~> 1.2.0)
+  - PanModal
+  - Reachability (~> 3.2)
+  - SDWebImage
+  - Somo
+  - SpreadsheetView
+  - SVPullToRefresh
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - AmazonAd
+    - AppLovinSDK
+    - Charts
+    - DZNEmptyDataSet
+    - Eureka
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - FLAnimatedImage
+    - FMDB
+    - Freestar-Nimbus-SDK
+    - FreestarAds
+    - FreestarAds-Amazon
+    - FreestarAds-AppLovin
+    - FreestarAds-Facebook
+    - FreestarAds-GAM
+    - FreestarAds-Google
+    - FreestarAds-Googleadmob
+    - FreestarAds-Nimbus
+    - FreestarAds-Unity
+    - FreestarAds-Vungle
+    - FRHyperLabel
+    - Google-Mobile-Ads-SDK
+    - GoogleAds-IMA-iOS-SDK
+    - GoogleAnalytics
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - HCSStarRatingView
+    - iCarousel
+    - IQKeyboardManager
+    - MBProgressHUD
+    - nanopb
+    - PanModal
+    - PromisesObjC
+    - Protobuf
+    - Reachability
+    - SDWebImage
+    - Somo
+    - SpreadsheetView
+    - SVPullToRefresh
+    - UnityAds
+    - VungleSDK-iOS
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AmazonAd: a2df415176ef57ff05d56ee7ec3dd3c993eb8e5a
+  AppLovinSDK: fc91aca5b6b529cae7181a43f63633363dddbe3b
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Eureka: e6d720290c56bb23333ad1a0e020b2a98a0e9a43
+  FBAudienceNetwork: 443e9c5e717e2d80c0253535a57e2681d34d9571
+  FBSDKCoreKit: dace5abafc2fd9272733e6d027bcf18102712117
+  Firebase: cd2ab85eec8170dc260186159f21072ecb679ad5
+  FirebaseABTesting: 457bc058cf6de8bcffc6fd9a2a4c933b24bfc264
+  FirebaseAnalytics: f3f8f75de34fe04141a69bb1c4bd7e24a80178e1
+  FirebaseCore: ac35d680a0bf32319a59966a1478e0741536b97b
+  FirebaseCoreDiagnostics: 3d36e05da74cb8b7ce30e6594a8f201b982c725c
+  FirebaseCrashlytics: 47af228115805e190b566db12c028263531b8ce0
+  FirebaseInstallations: bf2ec8dbf36ff4c91af6b9a003d15855757680c1
+  FirebaseInstanceID: 5ad92c898e1328b66e8dd58811964d6fe4d334c3
+  FirebaseMessaging: ce33c2537fdda1d1a4bc82b2245e3c3bf9107684
+  FirebasePerformance: 793dde6a0eafddfebde18af277f29c044e6b0023
+  FirebaseRemoteConfig: 44024544404d1195537bd883b60d596d95e129b7
+  FLAnimatedImage: dd3db277b17e909ec3c7fd41adfce79b321d960e
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Freestar-Nimbus-SDK: 86d954da312ebfbf5d518e339df322375ceb3210
+  FreestarAds: de22fc156f668d8bea5c2abd64549c988a402d84
+  FreestarAds-Amazon: 47cade583b4619139feab2224ff36d5187d4d27b
+  FreestarAds-AppLovin: b61f294d8b71db51638bdf439bf4d3c771c29117
+  FreestarAds-Facebook: 08d7a82aed54d0928d014c27056c74ac2f15fd98
+  FreestarAds-GAM: afd1481270ab1746e0211ed1a5b1486442287d03
+  FreestarAds-Google: 2fec377e746ffcb61ba3f5e8b885539b63aaf1fc
+  FreestarAds-Googleadmob: 167e1692b19ed79076dccd3295dc6a9a5f32f277
+  FreestarAds-Nimbus: abf8618d8ee9062636a94636ac0e74302b21ca7d
+  FreestarAds-Unity: 495787fca7cf4b75448006ab44f3bee2773f0df0
+  FreestarAds-Vungle: 305427e3ffb2833441026fc9c72ca748cd2870dc
+  FRHyperLabel: f4a127d5f8ffb211040554615e93f936d5a576a6
+  Google-Mobile-Ads-SDK: 2f288748a42920d1c744946a460896a95b0e9110
+  GoogleAds-IMA-iOS-SDK: cc10f58c94fe19664f223e290099624f4696001f
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleAppMeasurement: 0c3b134b2c0a90c4c24833873894bfe0e42a0384
+  GoogleDataTransport: 8b0e733ea77c9218778e5a9e34ba9508b8328939
+  GoogleMaps: eb03e327edfd70b06de1e6e321653f73712df7ad
+  GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
+  GoogleUtilities: e1d9ed4e544fc32a93e00e721400cbc3f377200d
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  Protobuf: adb85cd18a15bd1a777c158af9fd6e612a0e6d69
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+  Somo: 1e2335634d16babfb361c77b9cde743c5f45154b
+  SpreadsheetView: 688dbd19f2b355df0eb09e486266fd913a013449
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  UnityAds: 5b17b608ddb50ec7705b17e7884aa516be118938
+  VungleSDK-iOS: 09abfadbcc04e0748ce33c6bd02282e9961125ba
+
+PODFILE CHECKSUM: 0d617c776b3bd1e6cc8f4d179d7c220906b925ca
+
+COCOAPODS: 1.10.1
